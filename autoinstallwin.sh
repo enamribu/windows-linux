@@ -30,7 +30,7 @@ elif [ "$paramT" == "2019" ]; then
      Targeturl="http://files.rklucky.com/2019.gz"
 elif [ "$paramT" == "2022" ]; then
      OSname="Windows Server 2022"
-     Targeturl="http://files.rklucky.com/2022.gz"
+     Targeturl="https://www.dropbox.com/scl/fi/i765c39uz2ueug4hcgtuc/Server2022.gz?rlkey=izyxdd9t9w76t7t5f2of2vam4&st=5z5uhk92&dl=1"
 elif [ "$paramT" == "10" ]; then
      OSname="Windows 10 Pro"
      Targeturl="http://files.rklucky.com/10.gz"
