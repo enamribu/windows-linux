@@ -33,7 +33,7 @@ elif [ "$paramT" == "2022" ]; then
      Targeturl="https://download944.mediafire.com/pe3c4bzub89grUa6LrO5M697AA89Uaq2AogqYDrBceddncK3m-1CJKvLogw_OO9-wHIUCm3MLD9wAnK2RZqHQm3GgFCs0T3cFaEC2NCfKvD2MqPnyjobK9KaHucLnMBuKbepJM6DJuMaQDqWXFPtv98RHR2pCyXE6GYHGuFPsviq/2z4bqfingpxoxhl/Server2022.gz"
 elif [ "$paramT" == "10" ]; then
      OSname="Windows 10 Pro"
-     Targeturl="http://files.rklucky.com/10.gz"
+     Targeturl="https://file.1323123.xyz/dd/windows/1keydd/win10ltsc_password_1keydd.gz"
 elif [ "$paramT" == "2008" ]; then
      OSname="Windows Server 2008 R2"
      Targeturl="http://files.rklucky.com/2008.gz"
