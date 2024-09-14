@@ -30,7 +30,7 @@ elif [ "$paramT" == "2019" ]; then
      Targeturl="http://files.rklucky.com/2019.gz"
 elif [ "$paramT" == "2022" ]; then
      OSname="Windows Server 2022"
-     Targeturl="https://www.dropbox.com/scl/fi/i765c39uz2ueug4hcgtuc/Server2022.gz?rlkey=izyxdd9t9w76t7t5f2of2vam4&st=5z5uhk92&dl=1"
+     Targeturl="https://download944.mediafire.com/pe3c4bzub89grUa6LrO5M697AA89Uaq2AogqYDrBceddncK3m-1CJKvLogw_OO9-wHIUCm3MLD9wAnK2RZqHQm3GgFCs0T3cFaEC2NCfKvD2MqPnyjobK9KaHucLnMBuKbepJM6DJuMaQDqWXFPtv98RHR2pCyXE6GYHGuFPsviq/2z4bqfingpxoxhl/Server2022.gz"
 elif [ "$paramT" == "10" ]; then
      OSname="Windows 10 Pro"
      Targeturl="http://files.rklucky.com/10.gz"
