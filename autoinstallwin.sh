@@ -58,11 +58,11 @@ printf "\n  %-20s \n" "`echo \"-------------------------------------------------
 
 if [ "$paramY" ] 
 then
-  wget -qO- https://raw.githubusercontent.com/afnorsgg/winvps/master/1keyddmod.sh | bash -s - -t $Targeturl -w "$paramP"
+  wget -qO- https://raw.githubusercontent.com/nanasulis/windows-linux/main/1keyddmod.sh | bash -s - -t $Targeturl -w "$paramP"
 elif [[ "no" == $(confirm " Confirm Action?") ]]
 then
   echo "Cancelled."
 else
-  wget -qO- https://raw.githubusercontent.com/afnorsgg/winvps/master/1keyddmod.sh | bash -s - -t $Targeturl -w "$paramP"
+  wget -qO- https://raw.githubusercontent.com/nanasulis/windows-linux/main/1keyddmod.sh | bash -s - -t $Targeturl -w "$paramP"
 fi
 exit 0
