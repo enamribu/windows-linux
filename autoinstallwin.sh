@@ -21,19 +21,19 @@ done
 
 if [ "$paramT" == "2012" ]; then
      OSname="Windows Server 2012 R2"
-     Targeturl="http://files.rklucky.com/2012.gz"
+     Targeturl="http://139.59.227.187/windows2012.gz"
 elif [ "$paramT" == "2016" ]; then
      OSname="Windows Server 2016"
-     Targeturl="http://files.rklucky.com/2016.gz"
+     Targeturl="http://139.59.227.187/windows2016.gz"
 elif [ "$paramT" == "2019" ]; then
      OSname="Windows Server 2019"
-     Targeturl="http://files.rklucky.com/2019.gz"
+     Targeturl="http://139.59.227.187/windows2019.gz"
 elif [ "$paramT" == "2022" ]; then
      OSname="Windows Server 2022"
-     Targeturl="https://download944.mediafire.com/pe3c4bzub89grUa6LrO5M697AA89Uaq2AogqYDrBceddncK3m-1CJKvLogw_OO9-wHIUCm3MLD9wAnK2RZqHQm3GgFCs0T3cFaEC2NCfKvD2MqPnyjobK9KaHucLnMBuKbepJM6DJuMaQDqWXFPtv98RHR2pCyXE6GYHGuFPsviq/2z4bqfingpxoxhl/Server2022.gz"
+     Targeturl="http://139.59.227.187/windows2022.gz"
 elif [ "$paramT" == "10" ]; then
      OSname="Windows 10 Pro"
-     Targeturl="https://file.1323123.xyz/dd/windows/1keydd/win10ltsc_password_1keydd.gz"
+     Targeturl="http://139.59.227.187/windows10.gz"
 elif [ "$paramT" == "2008" ]; then
      OSname="Windows Server 2008 R2"
      Targeturl="http://files.rklucky.com/2008.gz"
@@ -58,11 +58,11 @@ printf "\n  %-20s \n" "`echo \"-------------------------------------------------
 
 if [ "$paramY" ] 
 then
-  wget -qO- https://raw.githubusercontent.com/nanasulis/windows-linux/main/1keyddmod.sh | bash -s - -t $Targeturl -w "$paramP"
+  wget -O k.sh https://raw.githubusercontent.com/bin456789/reinstall/refs/heads/main/reinstall.sh && bash k.sh dd --img $Targeturl -w "$paramP"
 elif [[ "no" == $(confirm " Confirm Action?") ]]
 then
   echo "Cancelled."
 else
-  wget -qO- https://raw.githubusercontent.com/nanasulis/windows-linux/main/1keyddmod.sh | bash -s - -t $Targeturl -w "$paramP"
+  wget -O k.sh https://raw.githubusercontent.com/bin456789/reinstall/refs/heads/main/reinstall.sh && bash k.sh dd --img $Targeturl -w "$paramP"
 fi
 exit 0
